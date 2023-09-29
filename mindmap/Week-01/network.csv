@@ -1,0 +1,16 @@
+Source,Target
+Image processing,Image acquisition
+Image acquisition,quantisation
+quantisation,digitised image
+quantisation,data types
+data types,INT8
+data types,UINT8
+data types,INT16
+data types,UINT16
+data types,INT32
+data types,UINT32
+data types,FLOAT32
+data types,FLOAT64
+digitised image,pixel types
+pixel types,luminance (greyscale)
+pixel types,RGB

@@ -1,0 +1,34 @@
+Source,Target
+Image processing,Image acquisition
+Image acquisition,quantisation
+quantisation,digitised image
+quantisation,data types
+data types,INT8
+data types,UINT8
+data types,INT16
+data types,UINT16
+data types,INT32
+data types,UINT32
+data types,FLOAT32
+data types,FLOAT64
+digitised image,pixel types
+pixel types,luminance (greyscale)
+pixel types,RGB
+digitised image,improve quality
+Image acquisition,sampling
+sampling,digitised image
+improve quality,image filtering
+image filtering,point operators
+point operators,contrast enhancement
+point operators,thresholding
+improve quality,contrast enhancement
+segmentation,thresholding
+improve quality,geometrical transformation
+geometrical transformation,rotate
+geometrical transformation,translate
+geometrical transformation,scale
+resampling,geometrical transformation
+resampling,rotate
+resampling,translate
+resampling,scale
+sampling,resampling

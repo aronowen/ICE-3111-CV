@@ -1,0 +1,65 @@
+Source,Target
+Image processing,Image acquisition
+Image acquisition,sampling
+Image acquisition,quantisation
+sampling,digitised image
+quantisation,digitised image
+digitised image,improve quality
+quantisation,data types
+data types,INT8
+data types,UINT8
+data types,INT16
+data types,UINT16
+data types,INT32
+data types,UINT32
+data types,FLOAT32
+data types,FLOAT64
+digitised image,pixel types
+pixel types,luminance (greyscale)
+pixel types,RGB
+pixel types,CMYK
+improve quality,image filtering
+improve quality,geometrical transformation
+geometrical transformation,rotate
+geometrical transformation,translate
+geometrical transformation,scale
+resampling,geometrical transformation
+resampling,rotate
+resampling,translate
+resampling,scale
+sampling,resampling
+image filtering,linear filters
+image filtering,point operators
+image filtering,median filter
+linear filters,convolution
+point operators,image blending
+point operators,compositing and matting
+improve quality,contrast enhancement
+segmentation,thresholding
+point operators,contrast enhancement
+point operators,thresholding
+convolution,spacial domain
+convolution,frequency domain
+frequency domain,Fourier transform
+Fourier transform,Fast Fourier transform (FFT)
+frequency domain,Inverse Fourier transform
+Inverse Fourier transform,Inverse fast Fourier transform (IFFT)
+convolution,low-pass filters
+convolution,high-pass filters
+low-pass filters,smoothing/blurring
+smoothing/blurring,Gaussian filter
+smoothing/blurring,box filter/mean filter/average filter
+low-pass filters,sharpening
+high-pass filters,gradient
+gradient,edge
+gradient,details
+gradient,noise
+high-pass filters,sharpening
+image blending,sharpening
+high-pass filters,edge detection
+Image processing,Computer Vision
+Computer Vision,High-level of understanding from digital image(s)
+High-level of understanding from digital image(s),object detection
+High-level of understanding from digital image(s),object recognition
+High-level of understanding from digital image(s),movement detection
+High-level of understanding from digital image(s),movement estimation
